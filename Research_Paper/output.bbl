@@ -1,0 +1,156 @@
+%aipnum4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (1) range
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{10}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Giallonardo}\ \emph {et~al.}(2020)\citenamefont
+  {Giallonardo}, \citenamefont {Sampogna}, \citenamefont {Del~Vecchio},
+  \citenamefont {Luciano}, \citenamefont {Albert}, \citenamefont {Carmassi},
+  \citenamefont {Carrà}, \citenamefont {Cirulli}, \citenamefont {Dell'Osso},
+  \citenamefont {Nanni},\ and\ \citenamefont
+  {et~al.}}]{quarantine_mentalHealth}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Giallonardo}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Sampogna}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Del~Vecchio}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Luciano}}, \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont {Albert}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Carmassi}}, \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {Carrà}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {Cirulli}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {Dell'Osso}}, \bibinfo {author} {\bibfnamefont {M.~G.}\
+  \bibnamefont {Nanni}},\ and\ \bibinfo {author} {\bibnamefont {et~al.}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {The impact of quarantine and
+  physical distancing following covid-19 on mental health: Study protocol of a
+  multicentric italian population trial},}\ }\href
+  {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290062/} {\bibfield  {journal}
+  {\bibinfo  {journal} {Frontiers in psychiatry}\ } (\bibinfo {year}
+  {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Suler}(2004)}]{online}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Suler}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {The online
+  disinhibition effect},}\ }\href {https://doi.org/10.1089/1094931041291295}
+  {\bibfield  {journal} {\bibinfo  {journal} {Cyberpsychology & behavior : the
+  impact of the Internet, multimedia and virtual reality on behavior and
+  society}\ }\textbf {\bibinfo {volume} {7}},\ \bibinfo {pages} {321--6}
+  (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Widman}(2020)}]{widman_2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Widman}},\ }\href {https://www.digitaltrends.com/web/what-is-reddit/}
+  {\enquote {\bibinfo {title} {What is reddit?}}\ } (\bibinfo {year}
+  {2020})\BibitemShut {NoStop}%
+\bibitem [{gur()}]{guru99}%
+  \BibitemOpen
+  \href {https://www.guru99.com/nltk-tutorial.html} {\enquote {\bibinfo {title}
+  {Nltk (natural language toolkit) tutorial in python},}\ }\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Guntuku}\ \emph {et~al.}(2017)\citenamefont
+  {Guntuku}, \citenamefont {Yaden}, \citenamefont {Kern}, \citenamefont
+  {Ungar},\ and\ \citenamefont {Eichstaedt}}]{GUNTUKU201743}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~C.}\ \bibnamefont
+  {Guntuku}}, \bibinfo {author} {\bibfnamefont {D.~B.}\ \bibnamefont {Yaden}},
+  \bibinfo {author} {\bibfnamefont {M.~L.}\ \bibnamefont {Kern}}, \bibinfo
+  {author} {\bibfnamefont {L.~H.}\ \bibnamefont {Ungar}},\ and\ \bibinfo
+  {author} {\bibfnamefont {J.~C.}\ \bibnamefont {Eichstaedt}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Detecting depression and mental illness
+  on social media: an integrative review},}\ }\href
+  {https://doi.org/https://doi.org/10.1016/j.cobeha.2017.07.005} {\bibfield
+  {journal} {\bibinfo  {journal} {Current Opinion in Behavioral Sciences}\
+  }\textbf {\bibinfo {volume} {18}},\ \bibinfo {pages} {43 -- 49} (\bibinfo
+  {year} {2017})},\ \bibinfo {note} {big data in the behavioural
+  sciences}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {CALVO}\ \emph {et~al.}(2017)\citenamefont {CALVO},
+  \citenamefont {MILNE}, \citenamefont {HUSSAIN},\ and\ \citenamefont
+  {CHRISTENSEN}}]{calvo_milne_hussain_christensen_2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont
+  {CALVO}}, \bibinfo {author} {\bibfnamefont {D.~N.}\ \bibnamefont {MILNE}},
+  \bibinfo {author} {\bibfnamefont {M.~S.}\ \bibnamefont {HUSSAIN}},\ and\
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {CHRISTENSEN}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Natural language processing
+  in mental health applications using non-clinical texts},}\ }\href
+  {https://doi.org/10.1017/S1351324916000383} {\bibfield  {journal} {\bibinfo
+  {journal} {Natural Language Engineering}\ }\textbf {\bibinfo {volume} {23}},\
+  \bibinfo {pages} {649–685} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Low}\ \emph {et~al.}(2020)\citenamefont {Low},
+  \citenamefont {Rumker}, \citenamefont {Talkar}, \citenamefont {Torous},
+  \citenamefont {Cecchi},\ and\ \citenamefont {Ghosh}}]{MIT}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~M.}\ \bibnamefont
+  {Low}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Rumker}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Talkar}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Torous}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Cecchi}},\ and\ \bibinfo {author}
+  {\bibfnamefont {S.~S.}\ \bibnamefont {Ghosh}},\ }\href
+  {https://dspace.mit.edu/handle/1721.1/128361} {\bibfield  {journal} {\bibinfo
+   {journal} {Natural Language Processing Reveals Vulnerable Mental Health
+  Support Groups and Heightened Health Anxiety on Reddit During COVID-19:
+  Observational Study}\ } (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{red({\natexlab{a}})}]{reddit_search}%
+  \BibitemOpen
+  \href {https://www.reddit.com/wiki/search} {\enquote {\bibinfo {title}
+  {reddit.com},}\ } ({\natexlab{a}})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Data}(2017)}]{data_2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Data}},\ }\href {https://www.kaggle.com/nltkdata/vader-lexicon} {\enquote
+  {\bibinfo {title} {Vader lexicon},}\ } (\bibinfo {year} {2017})\BibitemShut
+  {NoStop}%
+\bibitem [{red({\natexlab{b}})}]{reddit_limitation}%
+  \BibitemOpen
+  \href
+  {http://www.reddit.com/r/ideasfortheadmins/comments/10tai6/ever_wondered_the_data_liberation_policy_of_reddit/c6gicdf?context=3}
+  {\enquote {\bibinfo {title} {r/ideasfortheadmins - comment by u/spladug on
+  "ever wondered the data liberation policy of reddit?"},}\ }
+  ({\natexlab{b}})\BibitemShut {NoStop}%
+\end{thebibliography}%

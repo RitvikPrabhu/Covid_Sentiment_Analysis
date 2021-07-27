@@ -1,0 +1,22 @@
+ChkTeX v1.7.6 - Copyright 1995-96 Jens T. Berger Thielemann.
+Compiled with PCRE regex support.
+No errors printed; No warnings printed; 51 user suppressed warnings; No line suppressed warnings.
+Rc files read:
+  /usr/local/share/latexmk/LatexMk
+Latexmk: This is Latexmk, John Collins, 17 Apr. 2020, version: 4.69a.
+Latexmk: Changing directory to '/compile/'
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=batchmode -recorder -output-directory="/compile" --jobname="output"  "main.tex"'
+------------
+Latexmk: Found input bbl file 'output.bbl'
+Latexmk: Log file says output to 'output.pdf'
+Latexmk: Found bibliography file(s) [outputNotes.bib refs.bib]
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/compile/output.log' for details
+Latexmk: Undoing directory change
